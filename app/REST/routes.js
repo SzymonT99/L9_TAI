@@ -1,7 +1,6 @@
 import userEndpoint from './user.endpoint';
 
-const routes = function (router)
-{
+const routes = function (router) {
  userEndpoint(router);
 };
 
